@@ -85,6 +85,20 @@ A stack is a basic data structure that can be logically thought of as a linear s
    Big O Average Cases: insert,delete=(O(1)),search=(O(n)) . Worst Cases insert,delete=(O(1)),search=(O(n)) .
 
 ## Queues
+Queue is an abstract data structure, which is open at both its ends.Queue follows First-In-First-Out methodology.
+### Basic Operations:
+* enqueue() − add (store) an item to the queue.
+* dequeue() − remove (access) an item from the queue.
+* peek() − Gets the element at the front of the queue without removing it.
+* isfull() − Checks if the queue is full.
+* isempty() − Checks if the queue is empty.
+### Where to use:
+you have to use Queues when things don't have to be processed immediately, but have to be processed in First In First Out order.
+### Big-O:
+#### Access: Θ(n)	
+#### Search: Θ(n)	
+#### Insertion: Θ(1)
+#### Deletion: Θ(1)	
 
 ## Hash Tables 
 * design A hash function is any function that can be used to map data of arbitrary size to fixed-size values. The values returned by a hash function are called hash values, hash codes, digests, or simply hashes. 
